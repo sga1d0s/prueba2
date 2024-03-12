@@ -1,0 +1,30 @@
+# Ignorar archivos y directorios específicos
+*.pyc
+__pycache__/
+*.sqlite3
+*.log
+
+# Ignorar archivos de configuración local
+settings.py
+local_settings.py
+
+# Ignorar archivos de entorno virtual
+venv/
+.env
+
+# Ignorar archivos de migraciones
+/migrations/
+
+# Ignorar archivos de medios (cargados por los usuarios)
+/media/
+
+# Ignorar archivos de registro
+*.log
+
+# Ignorar archivos de caché
+*.cache
+
+# Ignorar archivos de respaldo
+*.bak
+*.swp
+*.swo
